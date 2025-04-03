@@ -4,16 +4,22 @@ import fotoPerfil from "../views/foto_perfil.jpeg";
 
 function Perfil() {
   return (
-    <div className="section-perfil">
-      <div className="section-description">
-        <h2>Perfil</h2>
-        <p>Olá! Sou <strong>Wenderson Cunha</strong>, um entusiasta da <strong>tecnologia</strong> e apaixonado por inovação.</p> 
-        <p>Minha trajetória profissional é marcada por experiências diversas na área de Tecnologia da Informação. Meu propósito é desenvolver soluções tecnológicas inovadoras que impulsionem a eficiência e o crescimento dos negócios.</p> 
-        <p>Encaro desafios como oportunidades de aprendizado e acredito no poder da colaboração para criar soluções impactantes. 🚀</p> 
-        <p>Fora do trabalho, gosto de aproveitar momentos com amigos e família, jogar e explorar novas formas de aprendizado contínuo!</p>
+    <div className="section">
+      <div className="section-perfil">
+        <div className="section-description">
+          <h2>Perfil</h2>
+          <p>Olá! Sou <strong>Wenderson Cunha</strong>, um entusiasta da <strong>tecnologia</strong> e apaixonado por inovação.</p> 
+          <p>Minha trajetória profissional é marcada por experiências diversas na área de Tecnologia da Informação. Meu propósito é desenvolver soluções tecnológicas inovadoras que impulsionem a eficiência e o crescimento dos negócios.</p> 
+          <p>Encaro desafios como oportunidades de aprendizado e acredito no poder da colaboração para criar soluções impactantes. 🚀</p> 
+          <p>Fora do trabalho, gosto de aproveitar momentos com amigos e família, jogar e explorar novas formas de aprendizado contínuo!</p>
+        </div>
+        <div className="section-imagem">
+          <img src={fotoPerfil} alt="Imagem de Perfil" />
+        </div>
       </div>
-      <div className="section-imagem">
-        <img src={fotoPerfil} alt="Imagem de Perfil" />
+      <div className="section-icones">
+          <h2>Redes Sociais</h2>
+          <button onClick="https://www.linkedin.com/in/wenderson-cunha/">Perfil</button>
       </div>
     </div>
     

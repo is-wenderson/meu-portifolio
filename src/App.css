@@ -63,6 +63,12 @@
   height: 200px;
   border-radius: 50%; /* Deixa a imagem redonda */
 }
+.section-icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Espaço entre os ícones */
+}
 h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
